@@ -1,0 +1,144 @@
+#xlogin .form-control {
+    padding: 1rem 2rem 1rem;
+    font-size: 1rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #999;
+    background-color: #f9fbfd;
+    border: 1px solid #eaecef !important;
+}
+#xlogin .formSubmit {
+    margin-bottom: 25px
+}
+
+#xlogin .formNotice {
+    margin: 0;
+    font-size: 13px
+}
+
+#xlogin .formNotice span {
+    cursor: pointer;
+    color: #428BCA
+}
+
+
+#xlogin .formNotice2 {
+    margin: 0;
+    font-size: 13px
+}
+
+#xlogin .formNotice2 span {
+    cursor: pointer;
+    color: #428BCA
+}
+
+#xlogin .formNotice span:hover,
+#xlogin .formNotice span:focus {
+    color: #2A6496;
+    text-decoration: underline
+}
+
+#xlogin .input-group-text {
+    border: 1px solid #eaecef !important;
+}
+
+#xlogin .input-group-text {
+    width: 2.8rem;
+}
+
+#loginModal .modal-content, #regModal .modal-content, #forgotModal .modal-content {
+    padding: 30px !important;
+}
+
+#loginModal .modal-body, #regModal .modal-body, #forgotModal .modal-body {
+    padding: 0px !important;
+}
+
+
+.common-btn {
+    font-weight: 400;
+    border: 2px solid #ea6838;
+    background-color: #ea6838 !important;
+}
+.common-btn:hover {
+    color: #fff;
+}
+
+.common-btn {
+    display: inline-block;
+    color: #fff !important;
+    background-color: #434e6e;
+    padding: 12px 30px;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    border: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
+    opacity: 1!important;
+    z-index: 1;
+    position: relative !important;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100% !important;
+    height: 100% !important;
+}
+.common-btn img:nth-child(1) {
+    bottom: -15px;
+    left: -15px;
+}
+
+.common-btn img {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .5s;
+    transition: .5s;
+    z-index: -1;
+}
+
+.border-bottom {
+    border-color: #f4f4f4 !important;
+}
+
+.popup-modal .btn-close {
+    position: absolute;
+    top: -13px;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 12px;
+    -webkit-transition: .5s;
+    transition: .5s;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    background-color: #fff;
+    color: #363636;
+    padding: 0;
+    opacity: 1;
+}
+
+.client-item .our-partners-section img {
+    width: 230px;
+    margin: 0 15px;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .client-item .our-partners-section img {
+        width: 130px !important;
+        margin: 0 10px !important;
+    } 
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .client-item .our-partners-section {
+        display: block !important;
+        text-align:center !important;
+    }
+}
+
+@media (min-width: 576px) {
+    #loginModal .modal-dialog, #regModal .modal-dialog {
+        max-width: 580px;
+        margin: 1.75rem auto
+    }
+}

@@ -1,0 +1,49 @@
+version: "3.7"
+services:
+  application:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: futurebazar
+    container_name: ${COMPOSE_PROJECT_NAME:?err}
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Dhaka
+      - WEB_DOCUMENT_ROOT=/app/public
+      - php.session.gc_maxlifetime=31536000
+      - php.session.cookie_lifetime=31536000
+      - php.memory_limit=2048M
+      - PHP_DISPLAY_ERRORS=1
+    ports:
+      - "${DOCKER_NGINX_HOST_PORT:?err}:80"
+    volumes:
+      - ./:/app
+    networks:
+      - futurebazar
+
+  db:
+    image: mariadb:latest
+    container_name: ${COMPOSE_PROJECT_NAME:?err}_db
+    restart: unless-stopped
+    command: --max_allowed_packet=32505856
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+      TZ: Asia/Dhaka
+    volumes:
+      - ./docker-compose/mysql:/docker-entrypoint-initdb.d
+      - futurebazar-mysql-data:/var/lib/mysql
+    networks:
+      - futurebazar
+    ports:
+      - "${DOCKER_DB_HOST_PORT:?err}:3306"
+
+networks:
+  futurebazar:
+    driver: bridge
+volumes:
+  futurebazar-mysql-data:

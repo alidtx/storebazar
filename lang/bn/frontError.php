@@ -1,0 +1,88 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used during authentication for various
+    | messages that we need to display to the user. You are free to modify
+    | these language lines according to your application's requirements.
+    |
+    */
+    'fullname' => 'পুরো নাম',
+    'email' => 'ইমেইল এড্রেস',
+    'mobile' => 'মোবাইল নম্বর',
+    'password' => 'Full Names',
+    'shopname' => 'কোম্পানি / দোকানের নাম',
+    'shopaddr' => 'কোম্পানি / দোকানের ঠিকানা',
+    'area' => 'এলাকা',
+    'areaselect' => 'এলাকা নির্বাচন করুন',
+    'tradelicense' => 'ট্রেড লাইসেন্স',
+    "tin"=> "টিন নং",
+    "agreement" => "আমি শর্তাবলিগুলোতে একমত",
+    "passwords" => "পাসওয়ার্ড",
+    "conf_passwords" => "পাসওয়ার্ড নিশ্চিত করুন",
+    "submit"=>"সাবমিট",
+    "The given data is invalid." => "প্রদত্ত তথ্য অবৈধ.",
+    "Invalid Mobile number format" => "অবৈধ মোবাইল নম্বর বিন্যাস",
+    "A Customer already Registered with this Mobile." => "একজন গ্রাহক ইতিমধ্যেই এই মোবাইলের সাথে নিবন্ধিত৷",
+    "Your Request has been submitted, please wait for admin approval." => "আপনার অনুরোধ জমা দেওয়া হয়েছে, অনুগ্রহ করে প্রশাসকের অনুমোদনের জন্য অপেক্ষা করুন।",
+    "Profle info has been updated successfully." => "প্রোফাইল তথ্য সফলভাবে আপডেট করা হয়েছে.",
+    "Sorry, Current Password is not correct." => "দুঃখিত, বর্তমান পাসওয়ার্ড সঠিক নয়.",
+    "Password Changed Successfully" => "পাসওয়ার্ড সফলভাবে পরিবর্তন",
+    "Login Access Restricted. Your registration request is not approved yet." => "লগইন অ্যাক্সেস সীমাবদ্ধ। আপনার নিবন্ধন অনুরোধ এখনও অনুমোদিত হয় নি.",
+    "Invalid Credentials." => "ভুল নাম্বার/পাসওয়ার্ড",
+    "Sorry, you have requested more than the number of item is available. Item in Stock" => "দুঃখিত, আপনি মজুত আইটেম সংখ্যার চেয়ে বেশি অনুরোধ করেছেন. স্টকে থাকা আইটেম",
+    "Please login to order the product" => "পণ্য অর্ডার করতে লগইন করুন",
+    "Sorry, You can not buy your own product." => "দুঃখিত, আপনি আপনার নিজের পণ্য কিনতে পারবেন না.",
+    "The given data is invalid."=>"প্রদত্ত তথ্য অবৈধ.",
+    "Login Successfull."=>"লগইন সফল.",
+    "Product has been added to the list successfullly"=>"পণ্য সফলভাবে তালিকা যোগ করা হয়েছে",
+    "Product Data has been updated successfullly"=>"পণ্য ডেটা সফলভাবে আপডেট করা হয়েছে",
+    "Your requested product" => "আপনার অনুরোধ করা পণ্য",
+    "has been Delivered" => "বিতরণ করা হয়েছে",
+    "An order of" => "একটি আদেশ",
+    "has been Delivered" => "বিতরণ করা হয়েছে",
+    "has been cancelled" => "বাতিল করা হয়েছে",
+    "The given data is invalid." => "প্রদত্ত তথ্য অবৈধ.",
+    "Invalid Mobile number format" => "অবৈধ মোবাইল নম্বর বিন্যাস",
+    "A Seller already Registered with this Mobile." => "একজন বিক্রেতা ইতিমধ্যেই এই মোবাইলের সাথে নিবন্ধিত৷",
+    "A Customer already Registered with this Mobile, you can be a seller from your panel after log in." => "একজন গ্রাহক ইতিমধ্যেই এই মোবাইলের সাথে নিবন্ধিত, আপনি লগ ইন করার পরে আপনার প্যানেল থেকে একজন বিক্রেতা হতে পারেন৷",
+    "Your Request has been submitted, please wait for admin approval." => "আপনার অনুরোধ জমা দেওয়া হয়েছে, অনুগ্রহ করে প্রশাসকের অনুমোদনের জন্য অপেক্ষা করুন।",
+    "Product has been deleted successfully" => "পণ্য সফলভাবে মুছে ফেলা হয়েছে",
+    "Sorry, order not found." => "দুঃখিত, অর্ডার পাওয়া যায়নি.",
+    "Please update the order Price" => "অর্ডার মূল্য আপডেট করুন",
+    "Order has been delivered successfully" => "অর্ডার সফলভাবে বিতরণ করা হয়েছে",
+    "Order has been cancelled" => "অর্ডার বাতিল করা হয়েছে",
+    "Please provide a phone number" => "একটি ফোন নম্বর প্রদান করুন",
+    "Sorry, No record found with this phone number." => "দুঃখিত, এই ফোন নম্বরের সাথে কোন রেকর্ড পাওয়া যায়নি।",
+    "Phone number and OTP is required" => "ফোন নম্বর এবং ওটিপি প্রয়োজন",
+    "Phone number is required" => "ফোন নম্বর প্রয়োজন",
+    "OTP is required" => "ওটিপি প্রয়োজন",
+    "OTP must be 4 characters" => "OTP 4 অক্ষরের হতে হবে",
+    "OTP does not matched" => "ওটিপি মেলে না",
+    "Sorry, No record found with this phone number." => "দুঃখিত, এই ফোন নম্বরের সাথে কোন রেকর্ড পাওয়া যায়নি।",
+    "Phone number is required" => "ফোন নম্বর প্রয়োজন",
+    "New Password is required'" => "নতুন পাসওয়ার্ড প্রয়োজন'",
+    "Confirm Password is required" => "পাসওয়ার্ড নিশ্চিত করুন প্রয়োজন বোধ করা হয়",
+    "Please Provide Product Quantity" => "অনুগ্রহ করে পণ্যের পরিমাণ প্রদান করুন",
+    "Please login to order the product" => "পণ্য অর্ডার করতে লগইন করুন",
+    "Please provide valid price value"=>"বৈধ মূল্য মান প্রদান করুন",
+    "Are you sure you want to cancel the order?" => "আপনি কি নিশ্চিত আপনি অর্ডার বাতিল করতে চান?",
+    "Have you delivered the product?"=>"আপনি কি পণ্য বিতরণ করেছেন?",
+    "Are you sure? it will remove the image from the record" => "তুমি কি নিশ্চিত? এটি রেকর্ড থেকে ছবিটি মুছে ফেলবে",
+    "Sorry maximum allowed size is 2MB" => "দুঃখিত সর্বাধিক অনুমোদিত আকার 2MB",
+    "Please login to order the product" => "পণ্য অর্ডার করতে লগইন করুন",
+    "Sorry, No record found with this phone number." => "দুঃখিত, এই ফোন নম্বরের সাথে কোন রেকর্ড পাওয়া যায়নি।",
+    "Sorry, Confirm Password does not matched." => "দুঃখিত, পাসওয়ার্ড নিশ্চিত করুন মেলে না.",
+    'invalid' => 'এই শংসাপত্রগুলি আমাদের রেকর্ডের সাথে মেলে না।',
+    'password' => 'প্রদত্ত পাসওয়ার্ডটি ভুল।',
+    'throttle' => 'অনেকগুলি লগইন প্রচেষ্টা। অনুগ্রহ করে :সেকেন্ড সেকেন্ডের মধ্যে আবার চেষ্টা করুন।',
+    'Order has been placed successfully.'=> "অর্ডারটি সফলভাবে সম্পন্ন হয়েছে",
+    'Congratulations' => 'অভিনন্দন',
+    'See customer details' => 'ক্রেতার তথ্য দেখুন',
+    'No shipping address found' => 'কোন প্রেরণের ঠিকানা পাওয়া যায়নি'
+];
